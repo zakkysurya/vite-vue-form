@@ -52,7 +52,6 @@
         :type="showHidePassword.confirmPassword.showPassword ? 'text' : 'password'"
         v-model.trim="form.confirmPassword"
         @change="validatorConfirmPassword"
-        name="confirmPassword"
         placeholder="Confirm password here..."
       />
       <button type="button" @click="toggleShowPassword('confirmPassword')">
